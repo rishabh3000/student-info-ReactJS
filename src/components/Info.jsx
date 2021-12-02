@@ -5,16 +5,14 @@ function Info(props) {
 
 
     return (<div>
-        {/* <table border="3">
-        <tr>
-        <th>Name</th><th>Branch</th><th>PNumber</th>
-        </tr> */}
 
+        {/* <button onClick={() => {
+            props.onChecked(props.id);
+        }}><span>Delete</span></button> */}
+ 
         <table border="3">
             <tr>
-                <th>Name</th>
-                <th>Branch</th>
-                <th>PNumber</th>
+                <th>Name</th><th>Branch</th><th>PNumber</th>
             </tr>
           
         <tr>

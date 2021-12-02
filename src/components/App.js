@@ -12,8 +12,27 @@ function App() {
     const[items3, setItems3] = React.useState([]);
 
 
-    
+    // function deleteItem() {
 
+    //     setItems1((prevItems) => {
+    //         return prevItems.filter((item1, index) => {
+    //             return index !== id;
+    //         });
+    //     });
+
+    //     setItems2((prevItems) => {
+    //         return prevItems.filter((item2, index) => {
+    //             return index !== id;
+    //         });
+    //     });
+
+    //     setItems3((prevItems) => {
+    //         return prevItems.filter((item3, index) => {
+    //             return index !== id;
+    //         });
+    //     });
+    // }
+    
 
     function handleChange1(event) {
             const newValue = event.target.value;

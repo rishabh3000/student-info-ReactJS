@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+table {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+input {
+  margin-left: 200px;
+  height: 30px;
+}
+
+button {
+  margin: 20px;
+  font-size: 20px;
+}
